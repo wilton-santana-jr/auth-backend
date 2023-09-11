@@ -11,7 +11,7 @@ Seguimos o artigo abaixo dividido em partes alterando a ultima parte onde fiz o 
 
 4. [Authentication with Nodejs and mongoDB - Part 4](https://dev.to/ebereplenty/authentication-with-nodejs-and-mongodb-part-4-4p37)
 
-5. [Hosting a Nodejs and MongoDB App on Vercel](auth-backend-brown.vercel.app)
+5. [Hosting a Nodejs and MongoDB App on Vercel](https://auth-backend-brown.vercel.app)
 
 ## Dependencias
 - [Express](https://www.npmjs.com/package/express)
