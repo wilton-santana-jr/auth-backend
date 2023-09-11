@@ -138,7 +138,7 @@ app.get("/free-endpoint", (request, response) => {
 // authentication endpoint
 app.get("/auth-endpoint", auth, (request, response) => {
   // response.send({ message: "You are authorized to access me" });
-  response.send({ message: `You are authorized to access me. Mrs Email: ${request.user.email}` });
+  response.send({ message: `You are authorized to access me. Mrs Email: ${request.user}` });
 });
 
 module.exports = app;
