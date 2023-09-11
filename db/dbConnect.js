@@ -8,7 +8,7 @@ async function dbConnect() {
   //'mongodb+srv://plenny:FXrdLJQza5itisRf@cluster0.xzvxqwa.mongodb.net/authDB?retryWrites=true&w=majority'
   mongoose
     .connect(
-        process.env.DB_URL,
+      'mongodb+srv://plenny:FXrdLJQza5itisRf@cluster0.xzvxqwa.mongodb.net/authDB?retryWrites=true&w=majority',        
       {
         //   these are options to ensure that the connection is done properly
         useNewUrlParser: true,
