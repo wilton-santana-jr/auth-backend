@@ -7,18 +7,18 @@
      }
   ],
   "routes": [
-    {
-      "src": "^/api/.*",
-      "dest": "/index.js"
-    },
-    {
-      "src": "^/images/(.*)",
-      "dest": "/public/images/$1"
-    },
-    {
-      "src": "/images/(.*)",
-      "dest": "/public/images/$1"
-    },
+    //{
+    //  "src": "^/api/.*",
+    //  "dest": "/index.js"
+    //},
+    //{
+    //  "src": "^/images/(.*)",
+    //  "dest": "/public/images/$1"
+    //},
+    //{
+    //  "src": "/images/(.*)",
+    //  "dest": "/public/images/$1"
+    //},
     {
       "src": "/(.*)",
       "dest": "/index.js"
