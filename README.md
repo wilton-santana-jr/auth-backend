@@ -1,7 +1,7 @@
 # auth-backend
-This tutorial teaches how to create authentication for a user using nodejs and mongoDB. 
+Neste tutorial ensinamos como criar aunteticação para usuarios usando NOdeJs e mongoDb. 
 
-I have shown how Authentication can be achieved using nodejs and mongoDB in my series entitled: "Authentication with Nodejs and mongoDB". Check them out below:
+Seguimos o artigo abaixo dividido em partes alterando a ultima parte onde fiz o deploy no Vercel: "Authentication with Nodejs and mongoDB". Check them out below:
 
 1. [Authentication with Nodejs and mongoDB - Part 1](https://dev.to/ebereplenty/authentication-with-nodejs-and-mongodb-part-1-10pn)
 
@@ -11,9 +11,9 @@ I have shown how Authentication can be achieved using nodejs and mongoDB in my s
 
 4. [Authentication with Nodejs and mongoDB - Part 4](https://dev.to/ebereplenty/authentication-with-nodejs-and-mongodb-part-4-4p37)
 
-5. [Hosting a Nodejs and MongoDB App on Heroku](https://dev.to/ebereplenty/hosting-a-nodejs-and-mongodb-app-on-heroku-38b8)
+5. [Hosting a Nodejs and MongoDB App on Vercel](auth-backend-brown.vercel.app)
 
-## Dependences
+## Dependencias
 - [Express](https://www.npmjs.com/package/express)
 - [Node](http://nodejs.org/)
 - [DotENV](https://www.npmjs.com/package/dotenv)
@@ -24,10 +24,10 @@ I have shown how Authentication can be achieved using nodejs and mongoDB in my s
 - [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 
 
-## SETTING UP 
-- Clone the repositury to your machine
-- Open up a terminal
-- Navigate into the project directory
-- Run <code>npm install</code> to install all needed dependencies
-- Run <code>nodemon index</code> to spin up the server
-- The server runs on port 3000 <code>http://localhost:3000/</code>
+## Configuração 
+- Clone o repositorio <code>https://github.com/wilton-santana-jr/auth-backend.git</code>
+- Abra o terminal
+- Navege ate o diretorio do projeto
+- Rode npm install para instalar as dependências necessárias
+- Rode nodemon index  para startar o servidor
+- O servidor rodará localmente na porta 3000 <code>http://localhost:3000/</code>
